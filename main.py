@@ -51,7 +51,7 @@ class Mentor:
 
 
 class Lecturer(Mentor):
-    all_lecturers =[]
+    all_lecturers = []
 
     def __init__(self, name, surname):
         super().__init__(name, surname)
